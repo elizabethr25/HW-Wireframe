@@ -69,5 +69,8 @@ footer{
     text-align: center;
     margin-top: 300px;
     padding: 30px 30px;
+    float: clear;
 }
+
+
 
