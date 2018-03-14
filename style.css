@@ -1,7 +1,11 @@
 body{
     background-color: grey;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-family:'Arial','Helvetica Neue',Helvetica, sans-serif;
+    color: '#777';
+    width:'960px';
+    font-size: '18px';
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .header1 {
@@ -11,7 +15,7 @@ body{
     margin-bottom: 10px
 }
 
-.nav {
+nav {
     background-color: lightgrey;
     text-align: center;
     padding: 30px 30px;
@@ -19,20 +23,51 @@ body{
 }
 
 section{
+    display: block;
     background-color: lightgrey;
     text-align: center;
     float: left;
+    width: 495px;
+    height: 250px;
+    padding: 10px;
+}
+
+article {
+    background-color: grey;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+h5{
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+p {
+    background-color: lightgrey;
+    text-align: center;
+    display: block;
+    padding: 10px;
 }
 
 aside{
+    display: block;
     float: right;
     background-color: lightgrey;
     text-align: center;
+    width: 495px;
+    height: 250px;
+    padding: 10px;
 }
 
 footer{
+    display: block;
     background-color: lightgrey;
     text-align: center;
+    margin-top: 300px;
     padding: 30px 30px;
 }
 
